@@ -36,4 +36,4 @@
 ...  SwiftUI, MapKit, CoreLocation, 
 
 その他開発に使用したツール・サービス
-...  Figma, Xcode, Adobe Illustrator, GitHub
+...  Figma, Xcode, Adobe Illustrator, GitHub, Adobe Premiere Pro

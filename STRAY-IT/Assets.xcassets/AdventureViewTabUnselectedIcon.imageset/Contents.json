@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "AdventureViewTabUnselectedIconLight.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "AdventureViewTabUnselectedIconDark.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8242C699294D7D1600D650F3 /* CheatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242C698294D7D1600D650F3 /* CheatingView.swift */; };
+		8242C69C294D7FE800D650F3 /* CheatingMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242C69B294D7FE800D650F3 /* CheatingMapModel.swift */; };
+		F141FF6329486B3D003CA1CF /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141FF6229486B3D003CA1CF /* SearchButton.swift */; };
+		F141FF662948A1FC003CA1CF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F141FF652948A1FC003CA1CF /* Launch Screen.storyboard */; };
+		F179EBC0294579C600C597F6 /* STRAY_ITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179EBBF294579C600C597F6 /* STRAY_ITApp.swift */; };
+		F179EBC2294579C600C597F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179EBC1294579C600C597F6 /* ContentView.swift */; };
+		F179EBC4294579C800C597F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F179EBC3294579C800C597F6 /* Assets.xcassets */; };
+		F179EBC8294579C800C597F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F179EBC7294579C800C597F6 /* Preview Assets.xcassets */; };
+		F179EBD2294579C800C597F6 /* STRAY_ITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179EBD1294579C800C597F6 /* STRAY_ITTests.swift */; };
+		F179EBDC294579C800C597F6 /* STRAY_ITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179EBDB294579C800C597F6 /* STRAY_ITUITests.swift */; };
+		F179EBDE294579C800C597F6 /* STRAY_ITUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179EBDD294579C800C597F6 /* STRAY_ITUITestsLaunchTests.swift */; };
+		F179EBED2945867100C597F6 /* DirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179EBEC2945867100C597F6 /* DirectionView.swift */; };
+		F179EBEF29458DBC00C597F6 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179EBEE29458DBC00C597F6 /* LocationModel.swift */; };
+		F1C2EDE4294ABCFF009678D7 /* LandmarkIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C2EDE3294ABCFF009678D7 /* LandmarkIcons.xcassets */; };
+		F1C2EDE6294ADD6A009678D7 /* Landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2EDE5294ADD6A009678D7 /* Landmarks.swift */; };
+		F1C2EDE8294D4942009678D7 /* AdventureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2EDE7294D4942009678D7 /* AdventureView.swift */; };
+		F1C2EDEB294D4B3F009678D7 /* LocalSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2EDEA294D4B3F009678D7 /* LocalSearchModel.swift */; };
+		F1C2EDEF294D4C64009678D7 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2EDEE294D4C64009678D7 /* MapModel.swift */; };
+		F1E95D682947FAD60020C98E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E95D672947FAD60020C98E /* SearchView.swift */; };
+		F1E9FF4D294D8160007CA475 /* AdventureMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9FF4C294D8160007CA475 /* AdventureMapModel.swift */; };
+		F1E9FF4F294DB392007CA475 /* PointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9FF4E294DB392007CA475 /* PointModel.swift */; };
+		F1E9FF53294DFA81007CA475 /* LocationCalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E9FF52294DFA81007CA475 /* LocationCalculateModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F179EBCE294579C800C597F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F179EBB4294579C600C597F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F179EBBB294579C600C597F6;
+			remoteInfo = "STRAY-IT";
+		};
+		F179EBD8294579C800C597F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F179EBB4294579C600C597F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F179EBBB294579C600C597F6;
+			remoteInfo = "STRAY-IT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8242C698294D7D1600D650F3 /* CheatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatingView.swift; sourceTree = "<group>"; };
+		8242C69B294D7FE800D650F3 /* CheatingMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatingMapModel.swift; sourceTree = "<group>"; };
+		F141FF6229486B3D003CA1CF /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		F141FF642948A0E1003CA1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F141FF652948A1FC003CA1CF /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F179EBBC294579C600C597F6 /* STRAY-IT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STRAY-IT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F179EBBF294579C600C597F6 /* STRAY_ITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRAY_ITApp.swift; sourceTree = "<group>"; };
+		F179EBC1294579C600C597F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F179EBC3294579C800C597F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F179EBC5294579C800C597F6 /* STRAY_IT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = STRAY_IT.entitlements; sourceTree = "<group>"; };
+		F179EBC7294579C800C597F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F179EBCD294579C800C597F6 /* STRAY-ITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STRAY-ITTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F179EBD1294579C800C597F6 /* STRAY_ITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRAY_ITTests.swift; sourceTree = "<group>"; };
+		F179EBD7294579C800C597F6 /* STRAY-ITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STRAY-ITUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F179EBDB294579C800C597F6 /* STRAY_ITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRAY_ITUITests.swift; sourceTree = "<group>"; };
+		F179EBDD294579C800C597F6 /* STRAY_ITUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STRAY_ITUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F179EBEC2945867100C597F6 /* DirectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionView.swift; sourceTree = "<group>"; };
+		F179EBEE29458DBC00C597F6 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		F1C2EDE3294ABCFF009678D7 /* LandmarkIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LandmarkIcons.xcassets; sourceTree = "<group>"; };
+		F1C2EDE5294ADD6A009678D7 /* Landmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmarks.swift; sourceTree = "<group>"; };
+		F1C2EDE7294D4942009678D7 /* AdventureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureView.swift; sourceTree = "<group>"; };
+		F1C2EDEA294D4B3F009678D7 /* LocalSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchModel.swift; sourceTree = "<group>"; };
+		F1C2EDEE294D4C64009678D7 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		F1E95D672947FAD60020C98E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F1E9FF4C294D8160007CA475 /* AdventureMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureMapModel.swift; sourceTree = "<group>"; };
+		F1E9FF4E294DB392007CA475 /* PointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointModel.swift; sourceTree = "<group>"; };
+		F1E9FF52294DFA81007CA475 /* LocationCalculateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCalculateModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F179EBB9294579C600C597F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F179EBCA294579C800C597F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F179EBD4294579C800C597F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8242C697294D7C6400D650F3 /* Cheating */ = {
+			isa = PBXGroup;
+			children = (
+				8242C698294D7D1600D650F3 /* CheatingView.swift */,
+			);
+			path = Cheating;
+			sourceTree = "<group>";
+		};
+		F179EBB3294579C600C597F6 = {
+			isa = PBXGroup;
+			children = (
+				F179EBBE294579C600C597F6 /* STRAY-IT */,
+				F179EBD0294579C800C597F6 /* STRAY-ITTests */,
+				F179EBDA294579C800C597F6 /* STRAY-ITUITests */,
+				F179EBBD294579C600C597F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F179EBBD294579C600C597F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBBC294579C600C597F6 /* STRAY-IT.app */,
+				F179EBCD294579C800C597F6 /* STRAY-ITTests.xctest */,
+				F179EBD7294579C800C597F6 /* STRAY-ITUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F179EBBE294579C600C597F6 /* STRAY-IT */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBBF294579C600C597F6 /* STRAY_ITApp.swift */,
+				F179EBEA2945863B00C597F6 /* Views */,
+				F179EBF029458DC300C597F6 /* Models */,
+				F179EBC3294579C800C597F6 /* Assets.xcassets */,
+				F1C2EDE3294ABCFF009678D7 /* LandmarkIcons.xcassets */,
+				F141FF652948A1FC003CA1CF /* Launch Screen.storyboard */,
+				F179EBC5294579C800C597F6 /* STRAY_IT.entitlements */,
+				F141FF642948A0E1003CA1CF /* Info.plist */,
+				F179EBC6294579C800C597F6 /* Preview Content */,
+			);
+			path = "STRAY-IT";
+			sourceTree = "<group>";
+		};
+		F179EBC6294579C800C597F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBC7294579C800C597F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F179EBD0294579C800C597F6 /* STRAY-ITTests */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBD1294579C800C597F6 /* STRAY_ITTests.swift */,
+			);
+			path = "STRAY-ITTests";
+			sourceTree = "<group>";
+		};
+		F179EBDA294579C800C597F6 /* STRAY-ITUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBDB294579C800C597F6 /* STRAY_ITUITests.swift */,
+				F179EBDD294579C800C597F6 /* STRAY_ITUITestsLaunchTests.swift */,
+			);
+			path = "STRAY-ITUITests";
+			sourceTree = "<group>";
+		};
+		F179EBEA2945863B00C597F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBC1294579C600C597F6 /* ContentView.swift */,
+				F179EBEB2945864300C597F6 /* Direction */,
+				F1E95D662947FAC80020C98E /* Search */,
+				F1C2EDE9294D4946009678D7 /* Adventrue */,
+				8242C697294D7C6400D650F3 /* Cheating */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F179EBEB2945864300C597F6 /* Direction */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBEC2945867100C597F6 /* DirectionView.swift */,
+				F1C2EDE5294ADD6A009678D7 /* Landmarks.swift */,
+			);
+			path = Direction;
+			sourceTree = "<group>";
+		};
+		F179EBF029458DC300C597F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F179EBEE29458DBC00C597F6 /* LocationModel.swift */,
+				F1E9FF52294DFA81007CA475 /* LocationCalculateModel.swift */,
+				F1C2EDEA294D4B3F009678D7 /* LocalSearchModel.swift */,
+				F1E9FF4E294DB392007CA475 /* PointModel.swift */,
+				F1C2EDEE294D4C64009678D7 /* MapModel.swift */,
+				F1E9FF4C294D8160007CA475 /* AdventureMapModel.swift */,
+				8242C69B294D7FE800D650F3 /* CheatingMapModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1C2EDE9294D4946009678D7 /* Adventrue */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2EDE7294D4942009678D7 /* AdventureView.swift */,
+			);
+			path = Adventrue;
+			sourceTree = "<group>";
+		};
+		F1E95D662947FAC80020C98E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F1E95D672947FAD60020C98E /* SearchView.swift */,
+				F141FF6229486B3D003CA1CF /* SearchButton.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F179EBBB294579C600C597F6 /* STRAY-IT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F179EBE1294579C800C597F6 /* Build configuration list for PBXNativeTarget "STRAY-IT" */;
+			buildPhases = (
+				F179EBB8294579C600C597F6 /* Sources */,
+				F179EBB9294579C600C597F6 /* Frameworks */,
+				F179EBBA294579C600C597F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STRAY-IT";
+			productName = "STRAY-IT";
+			productReference = F179EBBC294579C600C597F6 /* STRAY-IT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F179EBCC294579C800C597F6 /* STRAY-ITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F179EBE4294579C800C597F6 /* Build configuration list for PBXNativeTarget "STRAY-ITTests" */;
+			buildPhases = (
+				F179EBC9294579C800C597F6 /* Sources */,
+				F179EBCA294579C800C597F6 /* Frameworks */,
+				F179EBCB294579C800C597F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F179EBCF294579C800C597F6 /* PBXTargetDependency */,
+			);
+			name = "STRAY-ITTests";
+			productName = "STRAY-ITTests";
+			productReference = F179EBCD294579C800C597F6 /* STRAY-ITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F179EBD6294579C800C597F6 /* STRAY-ITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F179EBE7294579C800C597F6 /* Build configuration list for PBXNativeTarget "STRAY-ITUITests" */;
+			buildPhases = (
+				F179EBD3294579C800C597F6 /* Sources */,
+				F179EBD4294579C800C597F6 /* Frameworks */,
+				F179EBD5294579C800C597F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F179EBD9294579C800C597F6 /* PBXTargetDependency */,
+			);
+			name = "STRAY-ITUITests";
+			productName = "STRAY-ITUITests";
+			productReference = F179EBD7294579C800C597F6 /* STRAY-ITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F179EBB4294579C600C597F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F179EBBB294579C600C597F6 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F179EBCC294579C800C597F6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F179EBBB294579C600C597F6;
+					};
+					F179EBD6294579C800C597F6 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F179EBBB294579C600C597F6;
+					};
+				};
+			};
+			buildConfigurationList = F179EBB7294579C600C597F6 /* Build configuration list for PBXProject "STRAY-IT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F179EBB3294579C600C597F6;
+			productRefGroup = F179EBBD294579C600C597F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F179EBBB294579C600C597F6 /* STRAY-IT */,
+				F179EBCC294579C800C597F6 /* STRAY-ITTests */,
+				F179EBD6294579C800C597F6 /* STRAY-ITUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F179EBBA294579C600C597F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C2EDE4294ABCFF009678D7 /* LandmarkIcons.xcassets in Resources */,
+				F141FF662948A1FC003CA1CF /* Launch Screen.storyboard in Resources */,
+				F179EBC8294579C800C597F6 /* Preview Assets.xcassets in Resources */,
+				F179EBC4294579C800C597F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F179EBCB294579C800C597F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F179EBD5294579C800C597F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F179EBB8294579C600C597F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E95D682947FAD60020C98E /* SearchView.swift in Sources */,
+				F179EBEF29458DBC00C597F6 /* LocationModel.swift in Sources */,
+				F1E9FF4F294DB392007CA475 /* PointModel.swift in Sources */,
+				F179EBED2945867100C597F6 /* DirectionView.swift in Sources */,
+				F1C2EDEB294D4B3F009678D7 /* LocalSearchModel.swift in Sources */,
+				8242C69C294D7FE800D650F3 /* CheatingMapModel.swift in Sources */,
+				F179EBC2294579C600C597F6 /* ContentView.swift in Sources */,
+				F179EBC0294579C600C597F6 /* STRAY_ITApp.swift in Sources */,
+				F1E9FF4D294D8160007CA475 /* AdventureMapModel.swift in Sources */,
+				8242C699294D7D1600D650F3 /* CheatingView.swift in Sources */,
+				F1C2EDEF294D4C64009678D7 /* MapModel.swift in Sources */,
+				F1C2EDE6294ADD6A009678D7 /* Landmarks.swift in Sources */,
+				F141FF6329486B3D003CA1CF /* SearchButton.swift in Sources */,
+				F1C2EDE8294D4942009678D7 /* AdventureView.swift in Sources */,
+				F1E9FF53294DFA81007CA475 /* LocationCalculateModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F179EBC9294579C800C597F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F179EBD2294579C800C597F6 /* STRAY_ITTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F179EBD3294579C800C597F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F179EBDE294579C800C597F6 /* STRAY_ITUITestsLaunchTests.swift in Sources */,
+				F179EBDC294579C800C597F6 /* STRAY_ITUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F179EBCF294579C800C597F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F179EBBB294579C600C597F6 /* STRAY-IT */;
+			targetProxy = F179EBCE294579C800C597F6 /* PBXContainerItemProxy */;
+		};
+		F179EBD9294579C800C597F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F179EBBB294579C600C597F6 /* STRAY-IT */;
+			targetProxy = F179EBD8294579C800C597F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F179EBDF294579C800C597F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F179EBE0294579C800C597F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F179EBE2294579C800C597F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconLight AppIconDark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDark;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "STRAY-IT/STRAY_IT.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STRAY-IT/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STRAY-IT/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kantacky.STRAY-IT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F179EBE3294579C800C597F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIconLight AppIconDark";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDark;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "STRAY-IT/STRAY_IT.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STRAY-IT/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STRAY-IT/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kantacky.STRAY-IT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F179EBE5294579C800C597F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kantacky.STRAY-ITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STRAY-IT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STRAY-IT";
+			};
+			name = Debug;
+		};
+		F179EBE6294579C800C597F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kantacky.STRAY-ITTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STRAY-IT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STRAY-IT";
+			};
+			name = Release;
+		};
+		F179EBE8294579C800C597F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kantacky.STRAY-ITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "STRAY-IT";
+			};
+			name = Debug;
+		};
+		F179EBE9294579C800C597F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YP7SQBLYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kantacky.STRAY-ITUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "STRAY-IT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F179EBB7294579C600C597F6 /* Build configuration list for PBXProject "STRAY-IT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F179EBDF294579C800C597F6 /* Debug */,
+				F179EBE0294579C800C597F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F179EBE1294579C800C597F6 /* Build configuration list for PBXNativeTarget "STRAY-IT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F179EBE2294579C800C597F6 /* Debug */,
+				F179EBE3294579C800C597F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F179EBE4294579C800C597F6 /* Build configuration list for PBXNativeTarget "STRAY-ITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F179EBE5294579C800C597F6 /* Debug */,
+				F179EBE6294579C800C597F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F179EBE7294579C800C597F6 /* Build configuration list for PBXNativeTarget "STRAY-ITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F179EBE8294579C800C597F6 /* Debug */,
+				F179EBE9294579C800C597F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F179EBB4294579C600C597F6 /* Project object */;
+}
